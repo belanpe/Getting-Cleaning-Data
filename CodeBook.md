@@ -10,65 +10,64 @@ These measurements are averages of means and standard deviations of linear accel
 
 ###Variables:
 
-Mean X-axis Acceleration: 
-	Purpose:	Mean X-axis acceleration reading
-	Data Type: 	Double
-	Range:		-1.0:1.0
-Mean Y-axis Acceleration:
-	Purpose:	Mean Y-axis acceleration reading
-	Data Type: 	Double
-	Range:		-1.0:1.0
-Mean Z-axis Acceleration:
-	Purpose:	Mean Z-axis acceleration reading
-	Data Type: 	Double
-	Range:		-1.0:1.0
-X-axis Acceleration Standard Deviation:
-	Purpose:	Std Deviation of X-axis acceleration
-	Data Type: 	Double
-	Range:		-1.0:1.0
-Y-axis Acceleration Standard Deviation:
-	Purpose:	Std Deviation of Y-axis acceleration
-	Data Type: 	Double
-	Range:		-1.0:1.0
-Z-axis Acceleration Standard Deviation:
-	Purpose:	Std Deviation of Z-axis acceleration
-	Data Type: 	Double
-	Range:		-1.0:1.0
-Mean X-axis Angular Velocity:
-	Purpose:	Mean X-axis angular velocity reading
-	Data Type: 	Double
-	Range:		-1.0:1.0
-Mean Y-axis Angular Velocity:
-	Purpose:	Mean Y-axis angular velocity reading
-	Data Type: 	Double
-	Range:		-1.0:1.0
-Mean Z-axis Angular Velocity:
-	Purpose:	Mean Z-axis angular velocity reading
-	Data Type: 	Double
-	Range:		-1.0:1.0
-X-axis Angular Velocity Standard Deviation:
-	Purpose:	Std Deviation of X-axis angular velocity
-	Data Type: 	Double
-	Range:		-1.0:1.0
-Y-axis Angular Velocity Standard Deviation:
-	Purpose:	Std Deviation of Y-axis angular velocity
-	Data Type: 	Double
-	Range:		-1.0:1.0
-Z-axis Angular Velocity Standard Deviation:
-	Purpose:	Std Deviation of Z-axis angular velocity
-	Data Type: 	Double
-	Range:		-1.0:1.0
-Activity:
-	Purpose:	Activity being performed
-	Data Type: 	String
-	Range:		WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-Subject:
-	Purpose:	Subject ID
-	Data Type: 	Integer
-	Range:		1:30
+- Mean X-axis Acceleration: 
+	- Purpose:	Mean X-axis acceleration reading
+	- Data Type: 	Double
+	- Range:		-1.0:1.0
+- Mean Y-axis Acceleration:
+	- Purpose:	Mean Y-axis acceleration reading
+	- Data Type: 	Double
+	- Range:		-1.0:1.0
+- Mean Z-axis Acceleration:
+	- Purpose:	Mean Z-axis acceleration reading
+	- Data Type: 	Double
+	- Range:		-1.0:1.0
+- X-axis Acceleration Standard Deviation:
+	- Purpose:	Std Deviation of X-axis acceleration
+	- Data Type: 	Double
+	- Range:		-1.0:1.0
+- Y-axis Acceleration Standard Deviation:
+	- Purpose:	Std Deviation of Y-axis acceleration
+	- Data Type: 	Double
+	- Range:		-1.0:1.0
+- Z-axis Acceleration Standard Deviation:
+	- Purpose:	Std Deviation of Z-axis acceleration
+	- Data Type: 	Double
+	- Range:		-1.0:1.0
+- Mean X-axis Angular Velocity:
+	- Purpose:	Mean X-axis angular velocity reading
+	- Data Type: 	Double
+	- Range:		-1.0:1.0
+- Mean Y-axis Angular Velocity:
+	- Purpose:	Mean Y-axis angular velocity reading
+	- Data Type: 	Double
+	- Range:		-1.0:1.0
+- Mean Z-axis Angular Velocity:
+	- Purpose:	Mean Z-axis angular velocity reading
+	- Data Type: 	Double
+	- Range:		-1.0:1.0
+- X-axis Angular Velocity Standard Deviation:
+	- Purpose:	Std Deviation of X-axis angular velocity
+	- Data Type: 	Double
+	- Range:		-1.0:1.0
+- Y-axis Angular Velocity Standard Deviation:
+	- Purpose:	Std Deviation of Y-axis angular velocity
+	- Data Type: 	Double
+	- Range:		-1.0:1.0
+- Z-axis Angular Velocity Standard Deviation:
+	- Purpose:	Std Deviation of Z-axis angular velocity
+	- Data Type: 	Double
+	- Range:		-1.0:1.0
+- Activity:
+	- Purpose:	Activity being performed
+	- Data Type: 	String
+	- Range:		WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+- Subject:
+	- Purpose:	Subject ID
+	- Data Type: 	Integer
+	- Range:		1:30
 
 ###Data:
-
 Measurements (other than Activity and Subject) consist of the average (mean) and standard deviations of both linear acceleration and angular velocity recorded from a smartphone, in all 3 axis (X, Y, and Z).  This produces 12 variables per activity, per subject.
 
 **NOTE:**
