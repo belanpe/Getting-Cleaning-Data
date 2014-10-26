@@ -1,16 +1,15 @@
-Coursera: Getting & Cleaning Data
-Course Project 
+##Coursera: Getting & Cleaning Data
+###Course Project 
 Oct 25, 2014
 
-CodeBook - Acceleration and Gyroscopic study
+##CodeBook - Acceleration and Gyroscopic study
 
-Description: 
-------------
+###Description: 
 Accelerometer and Gyroscopic measurements for a sample of 30 subjects performing 6 distinct activities (for a total of 180 rows).
 These measurements are averages of means and standard deviations of linear acceleration and angular velocity, in 3 axis for each of these metrics. This yields 12 values per activity.
 
-Variables:
-----------
+###Variables:
+
 Mean X-axis Acceleration: 
 	Purpose:	Mean X-axis acceleration reading
 	Data Type: 	Double
@@ -68,17 +67,16 @@ Subject:
 	Data Type: 	Integer
 	Range:		1:30
 
-Data:
------
+###Data:
+
 Measurements (other than Activity and Subject) consist of the average (mean) and standard deviations of both linear acceleration and angular velocity recorded from a smartphone, in all 3 axis (X, Y, and Z).  This produces 12 variables per activity, per subject.
 
-NOTE:
+**NOTE:**
 For the purpose of the exercise, means and std devs for linear acceleration and angular acceleration were extracted exclusively: it is not necessary to extract other means & std deviations as they are derived or transformed from these master values.
 	
-Transformations:
-----------------
+###Transformations:
 1. A Zip-compressed file was retrieved from the URL
-	1. https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+  1. https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2. The contents were extracted using the unzip command
 3. The measurements (Test and Training data except activity and subject ID) were bound on rows
 4. The linear mean and standard deviation accelerations, as well as angular mean and standard deviations were subset using 'grep' commands to target exclusively this information
