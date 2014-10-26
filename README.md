@@ -6,4 +6,4 @@
   2. > source("d:\\\\data\\\\run_analysis.R")
   3. Note the double-backslash is for Windows compatible environment; running the script on Linux or MacOS, you'll need to use the traditional slash (ie, '/').
 2. tidydata.txt: Formatted results, spreadsheet-ready, resulting from the script operation
-3. CodeBook.md: Analysis results contents description
+3. CodeBook.md: Information about the variables, data and transformation to achieve the results displayed in 'tidyData.txt'
