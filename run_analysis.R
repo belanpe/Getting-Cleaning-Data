@@ -6,6 +6,7 @@
 # workDir:  	Root directory for the data cleaning work
 # destFile: 	Name of the source file local to your computer
 # stagingDir: 	Path value where data for processing is found
+# outFile:		Name of the tidy file
 #
 
 #  Initial capture data URL
@@ -14,9 +15,9 @@ inUrl="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%
 workDir="d:\\data"
 #  Local file, source of analysis:
 destFile=paste(workDir,"\\Dataset.zip",sep="")
+stagingDir=paste(workDir,"\\UCI HAR Dataset\\",sep="")
 #  Output file, for tidied data
 outFile=paste(workDir,"\\tidyData.txt",sep="")
-stagingDir=paste(workDir,"\\UCI HAR Dataset\\",sep="")
 #  Retrieve the file:
 download.file(inUrl,destfile = destFile)
 
